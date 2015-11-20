@@ -40,3 +40,7 @@ set numberwidth=5
 set splitbelow
 set splitright
 
+
+" plugins
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
