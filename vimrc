@@ -3,6 +3,12 @@ set nobackup
 set nowritebackup
 set noswapfile
 set ruler " show the cursor position all the time
+set nocompatible
+execute pathogen#infect()
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
 
 augroup vimrcEx
   autocmd!
